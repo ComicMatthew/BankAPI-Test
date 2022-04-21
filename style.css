@@ -1,0 +1,18 @@
+body {
+    background-color: #D1D5E3;
+    
+}
+
+
+#feed {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-bottom: 1em;
+}
+
+#date {
+    color: red;
+}
