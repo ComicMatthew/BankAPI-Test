@@ -15,74 +15,55 @@
             <div id="inputContainer">
                 <input id="date" type="date" placeholder="RRRR-MM-DD">
                 
-                <input id="currInput" type="text" placeholder="Wybierz kod waluty"><br>
+                <form action="">
+                    <label for="currInput"></label>
+                    <select name="currInput" id="currInput">
+                        <option value="THB">THB </option>
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option> 
+                        <option value="AUD">AUD</option> 
+                        <option value="HKD">HKD</option> 
+                        <option value="CAD">CAD</option> 
+                        <option value="NZD">NZD</option> 
+                        <option value="SGD">SGD </option>
+                        <option value="HUF">HUF</option>
+                        <option value="CHF">CHF</option> 
+                        <option value="GBP">GBP</option> 
+                        <option value="JPY">JPY</option> 
+                        <option value="DKK">DKK</option> 
+                        <option value="CZK">CZK</option> 
+                        <option value="ISK">ISK </option>
+                        <option value="NOK">NOK</option>
+                        <option value="SEK">SEK</option> 
+                        <option value="RON">RON</option> 
+                        <option value="TRY">TRY</option> 
+                        <option value="BGN">BGN</option> 
+                        <option value="ILS">ILS</option> 
+                        <option value="CLP">CLP </option>
+                        <option value="PHP">PHP</option>
+                        <option value="MXN">MXN</option> 
+                        <option value="ZAR">ZAR</option> 
+                        <option value="BRL">BRL</option> 
+                        <option value="MYR">MYR</option> 
+                        <option value="IDR">IDR</option> 
+                        <option value="KRW">KRW</option> 
+                        <option value="CNY">CNY</option> 
+                        <option value="XDR">XDR</option> 
+    
+                    </select>
+                </form>
             </div>
 
             <div id="buttonContainer">    
-                <button onclick=showAllCurrency()>Wszystkie waluty</button>
+                <button id = "allCurreny">Wszystkie waluty</button>
 
-                <button onclick=showSpecificCurrency()>Konkretna Waluta</button>
+                <button id = "specificCurrency">Konkretna Waluta</button>
             </div>
 
         </div>
 
-        <div id="currencyList">
-            <h1>Kody Walut</h1>
-                <div onclick=insertText()>THB</div>
-                <a>USD</a>
-                <div>AUD</div>
-                <div>HKD</div>
-                <div>CAD</div>
-                <div>NZD</div>
-                <div>SGD</div>
-                <div>EUR</div>
-                <div>HUF</div>
-                <div>CHF</div>
-                <div>HUF</div>
 
-                THB
-USD
-AUD
-HKD
-CAD
-NZD
-SGD
-EUR
-HUF
-CHF
-GBP
-UAH
-JPY
-CZK
-DKK
-ISK
-NOK
-SEK
-HRK
-RON
-BGN
-TRY
-ILS
-CLP
-PHP
-MXN
-ZAR
-BRL
-MYR
-IDR
-INR
-KRW
-CNY
-XDR
-
-        </div>
-
-        <div id="feed">
-            
-            <div id="currency"></div>
-            <div id="code"></div>
-            <div id="mid"></div>
-            
+        <div id="feed">            
         </div>
     </div>
     
